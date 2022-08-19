@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/*
+
+		Web Development II Assignments
+		Course: CIS 182 MO WR
+		Name: Jamie Steinberg
+		Date: 09-02-2021
+*/
+
+
+/* HTML styles */
+html {
+	background: url(images/gold.jpg);
+	font-family: Verdana, Calibri, Helvetica, sans-serif;
+}	
+
+/*Header Styles*/
+header {
+	background: white;
+	color: black;
+	width: 800px;
+	margin: auto;
+	border: 1px solid darkgray;
+
+}
+
+header h1 {
+	font-family: Verdana, sans-serif;
+	text-align: center;
+}
+
+header h2 {
+	font-family: Calibri, sans-serif;
+	text-align: center;
+}
+
+h3 {
+	font-family: helvetica, sans-serif;
+	white-space: nowrap;
+
+}
+
+/*Main Styles*/
+
+main {
+	font-family: courier, sans-serif;
+	background: rgb(252, 249, 225);
+	width: 800px;
+	margin: auto;
+	border: 1px solid darkgray;
+	padding: 3px;
+
+}
+
+/*Footer Styles*/
+footer {
+	background: rgb(252, 249, 225);
+	color: black;
+	width: 800px;
+	margin: auto;
+	border: 1px solid darkgray;
+	padding: 3px;
+	text-align: center
+}
+
+/*Image Styles*/
+
+#selfimg {
+	border-radius: 50%;
+	border: 1px solid black;
+	float: left;
+	position: relative;
+   	left: 20px;
+   	top: 10px;
+   	margin-bottom: -10px
+}
+
+/*Table Styles*/
+
+
+main table, th, td{
+	background: white;
+	border-collapse: collapse;
+	border: 1px solid black;
+	padding: 10px 18px;
+	text-align: left;
+}
+
+#table1 {
+	margin: auto;
+}
+
+.c1 {
+	text-align: right;
+}
+
+/*Link Styles*/
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: darkblue;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: red;
+}

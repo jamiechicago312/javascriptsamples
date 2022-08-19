@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* Color Scheme #1: Color Collect */
+
+@font-face {
+  font-family: Murecho1;
+  src: url(Murecho-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Murecho2;
+  src: url(Murecho-Light.ttf);
+}
+
+@font-face {
+  font-family: Murecho3;
+  src: url(Murecho-Medium.ttf);
+}
+
+main {
+	padding: 10px;
+	font-family: Murecho2, sansserif;
+}
+
+header {
+	border-style: solid;
+	border-width: 3px
+}
+
+body {
+	margin: auto;
+	padding: 20px;
+	background-color: #CAD5E6;
+	width: 800px;
+	height: 600px;
+	font-family: Murecho2, sansserif;
+	font-weight: bold;
+	color: #7D92B5;
+}
+
+h1 {
+	font-family: Murecho3;
+	font-size: 36px;
+	padding: 8px;
+	border-bottom-style: solid;
+	border-width: 5px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Murecho2;
+	font-size: 26px;
+	padding: 5px;
+	text-align: center;
+}
+
+form {
+	padding: 5px;
+}
+
+#submit {
+	text-align: center;
+	background-color: orange;
+	font-family: Murecho2;
+}
+
+#submit input {
+	background-color: orange;
+	font-family: Murecho2;
+}
+
+label {
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	border-bottom-style: solid;
+	border-width: 3px;
+}
+
+a:link {
+	color: #DE8F85;
+}
+
+a:visited {
+	color:#967DA3;
+}
+a:hover {
+	color:#F0CDDE;
+}
+a:active {
+	color:#ECF0E5;
+}

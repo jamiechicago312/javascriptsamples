@@ -1,0 +1,49 @@
+Part 1: HTML Basics Exercise
+Using HTML5, create an index page that will serve as a menu for all of your assignments in Web Development II this semester. This page must be called index.html; do not use any other file name! Title this document "Web Development II Assignments".
+
+Create a main element on the page.
+
+Include an image link to a photo which represents you. This can be an actual picture of yourself or a symbol you have chosen as an avatar. (For example, Dr. Alfaro might choose a picture of a rubber ducky.) This picture should be 150×150 pixels; please use GIMP, Photoshop, or a similar image editing program to trim this photo down! Remember to name this photo something descriptive for SEO and put it in a folder called images. (Please do not use an absolute link to a file hosted on another site.) ***All images on this page must be included in the images folder.
+
+Within a page header element, create a level 1 heading that is your name. Create two level 2 headings: one should say, "CIS 182 MO Web Development II", and the other should say, "Fall 2021 Semester". (Do not include the image from step 3 in the header element.)
+
+Beneath the header element, create a level 3 heading which says, "You are not logged in." Give this heading an ID of "messageBox". (Remember, IDs are case sensitive!)
+
+Beneath the level 3 heading, create a table that is 3 columns wide by 9 rows high. In the top row, use 3 table header cells that say Ch., Assignment, and Description. Then populate the following rows so that the table includes the following information:
+Ch.	Assignment	Description
+ 2	Ex 2-1	        Convert Fahrenheit to Celsius
+ 3	Ex 3-2	        Convert number grades to letter grade
+ 4	Ex 4-3	        Develop the income tax calculator
+ 5	Ex 5-1	        Develop the temperature converter
+ 7	Ex 7-1	        Develop the Change Calculator application
+ 8	Ex 8-2	        Develop a password generator
+ 9	Ex 9-1	        Save a reservation in session storage
+10	Ex 10-2	        Develop the Monthly Balance Calculator
+Please assign the table element a class of "hide" (but do not create any CSS for this class!).
+
+Beneath the table element, create a div with an ID of "okta-login-container". Leave this div empty for now; we will use this in an assignment later in the semester. (Do not create any CSS for this div!)
+
+Finally, add a footer with the text Wilbur Wright College, one of the City Colleges of Chicago. Make this entire line of text a clickable link which takes the user to https://www.ccc.edu/colleges/wright/pages/default.aspx
+
+Don't forget to send your code through the W3C validator and fix any issues it reports.
+
+Part 2: Adding CSS
+For this portion of the exercise, use external CSS only! (No inline or embedded style.)
+
+DO NOT CREATE ANY CSS RULES FOR EITHER THE "hide" CLASS OR THE "okta-login-container"!
+
+Use CSS (externally) to style your font families, the background color of the page, and the foreground (text) color. Use one font for the h1, h2, and h3, and a different font for the rest of the page content. (Remember to follow best practices for alternate fonts.)
+
+Round the corners of your image 50% using the border radius property. (This will make your image appear as a circle.) Add a 1px border to your image. Float the image only to the left so the header wraps around the right side.
+
+Clear the float before the "You are not logged in" heading so that this headline appears below the image. (In other words, it does not wrap.)
+
+Collapse the borders of your table and add a 1-px solid border around every table cell as shown below. Add some padding to make the table easier to read. 
+
+Align the text in the left column of the table to the right side of the column as shown. Align the text in the middle and right columns to the left as shown.
+
+Change the colors of the link, visited, hover, and active states for the anchor tag.
+
+Adjust the margins and padding as needed to make your page easy to read. Then, add any other finishing touches which you want to make this look like a professional portfolio page.
+
+Don't forget to validate your CSS using jigsaw.w3.org/css-validator/
